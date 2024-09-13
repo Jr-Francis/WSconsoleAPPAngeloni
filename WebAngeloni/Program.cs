@@ -49,13 +49,13 @@ internal class WebAngeloni
             Thread.Sleep(3000);
 
             var loginLocation = driver.FindElement(By.XPath("/html/body/div[18]/div/div[1]/div[1]/form/label[1]/input[1]"));
-            loginLocation.SendKeys("francisco.junior@mariamaria.app");
+            loginLocation.SendKeys("login@mariamaria.app");
             Thread.Sleep(2000);
 
             //driver.FindElement(By.XPath("/html/body/div[17]/div/div[1]/div[1]/form/label[2]/input[1]")).Click();
             var passwordLocation = driver.FindElement(By.XPath("//*[@id=\"pass\"]"));
 
-            passwordLocation.SendKeys("@yugate");
+            passwordLocation.SendKeys("senha");
             Thread.Sleep(3000);
 
             //*[@id="loginSubmit"]
